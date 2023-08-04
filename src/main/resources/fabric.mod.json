@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "slipperyplus",
+  "version": "${version}",
+  "name": "SlipperyPlus",
+  "description": "Super Slippery!",
+  "authors": [
+    "Xiaomckedou233"
+  ],
+  "contact": {
+    "repo": "https://github.com/Xiaomckedou233/SlipperyPlus"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/slipperyplus/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "top.xiaomckedou233.slipperyplus.client.SlipperyPlusClient"
+    ],
+    "main": [
+      "top.xiaomckedou233.slipperyplus.SlipperyPlus"
+    ]
+  },
+  "mixins": [
+    "slipperyplus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
