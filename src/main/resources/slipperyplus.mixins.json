@@ -4,6 +4,7 @@
   "package": "top.xiaomckedou233.slipperyplus.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "BlockMixin"
   ],
   "client": [
   ],

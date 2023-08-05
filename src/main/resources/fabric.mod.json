@@ -14,9 +14,6 @@
   "icon": "assets/slipperyplus/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "top.xiaomckedou233.slipperyplus.client.SlipperyPlusClient"
-    ],
     "main": [
       "top.xiaomckedou233.slipperyplus.SlipperyPlus"
     ]
