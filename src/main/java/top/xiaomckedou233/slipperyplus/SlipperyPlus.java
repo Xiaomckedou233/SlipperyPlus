@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory;
 public class SlipperyPlus implements ModInitializer {
 
     public static final Logger LOGGER = LoggerFactory.getLogger("slipperyplus");
-
     @Override
     public void onInitialize() {
         LOGGER.info("SlipperyPlus,Start!");
